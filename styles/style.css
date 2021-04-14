@@ -31,11 +31,18 @@ body {
   justify-content: right;
 }
 
-a:hover {
+ li a {
+  text-decoration: none;
   color: white;
-  white-space: nowrap;
+  padding-top: 25px;
+  
+}
+li a:hover {
+  border-top: white 2px solid;
 }
 
-a:active {
-  columns: black;
-}
+
+
+
+
+
